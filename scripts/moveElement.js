@@ -1,7 +1,7 @@
 function moveElement(elementID,final_X,final_Y,interval){
 //Make sure the browser understands the DOM methods and the elementID exists
-  if(!document.getElementById || !document.getElementById("elementID")) return false;
-  var ele = document.getElementById("elementID");
+  if(!document.getElementById || !document.getElementById(elementID)) return false;
+  var ele = document.getElementById(elementID);
   if(ele.movement){
     clearTimeout(ele.movement);
   }
