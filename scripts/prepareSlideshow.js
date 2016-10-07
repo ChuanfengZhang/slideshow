@@ -4,7 +4,7 @@ function prepareSlideshow(){
     return false;
   }
 //Make sure the Elements exist
-  if(!document.getElementById("linklist") return false;
+  if(!document.getElementById("linklist")) return false;
   var slideshow = document.createElement("div");
   slideshow.setAttribute("id","slideshow");
   var preview = document.createElement("img");
@@ -24,4 +24,4 @@ function prepareSlideshow(){
     }
   }
 }
-addLoadEvent(prepareSlideShow);
+addLoadEvent(prepareSlideshow);
