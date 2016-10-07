@@ -1,2 +1,2 @@
 # slideshow
-A project from JavaScript DOM Scripting
+A project from *JavaScript DOM Scripting*
